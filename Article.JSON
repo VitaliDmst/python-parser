@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "headline": "{.text-header}",
+  "mainEntityOfPage": "{self.title}",
+  "image": "{image url}",
+  "author": "Exposit",
+  "name": "How to Tie a Reef Knot",
+  "datePublished": "22-11-2019 {.time} format dd-mm-yyyy",
+  "dateModified": "22-11-2019 {last modified}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Exposit",
+	"url": "https://www.exposit.com",
+    "logo": {
+		"@type": "ImageObject",
+        "url": "{logo url} >=112x112px jpg/png"
+    }
+  }
+}
+</script>
